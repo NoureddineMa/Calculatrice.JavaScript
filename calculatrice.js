@@ -12,6 +12,9 @@
 
 
             // declaration of functions : 
+
+
+
                 // -------- Functions ------------ //
 
             // creation d'une fonction pour effacer le screen :
@@ -41,12 +44,24 @@
                     {
                     if(operations.includes(previousChar) && operations.includes(currentChar))
                     {
-                        alert("Double Opération");
+                    if(previousChar == currentChar){
+                        removeChar();
+                    }
+                    else
+                    {
+                        overwrite();
+                    }      
                     }
                     }
 
-                    // remplace l'operateur si error 
+                    // fonction pour le modifier l'opérateur par le dernier tapé
+
+                    function overwrite(){
+                        screen.value = screen.value.slice(0,numbChar-2)+screen.value.slice(numbChar-1);
+                    }
+
+                    
             function removeChar(){
-                screen.value = previousChar = screen.value.substring(numbChar-2,numbChar-1);
+                screen.value =  screen.value.substring(0,numbChar-1);
             }            
 

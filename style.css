@@ -24,7 +24,7 @@ input[type="text"]{
     outline: none;
     background-color: #2E4C6D;
     color: #FC997C;
-    font-size: 1.7em;
+    font-size: 1.9em;
     /* 2eme = 27.2px  // 1em = 16px */
     padding: 0 20px;
 }
@@ -34,13 +34,23 @@ button{
     outline: none;
     background-color: #2E4C6D;
     color: #DADDFC;
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
 button:hover{
-    background-color:#FC997C ;
+    background-color:#FC4F4F ;
     cursor: pointer;
-    color: black;
+    
 }
 .zero{
     flex: 2;
+}
+.special{
+    background-color: #FC4F4F;
+}
+.special:hover{
+    background-color: #139487;
+}
+
+.special-t{
+    background-color: #94B49F;
 }

@@ -6,6 +6,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background-image: url(/media/back.jpg);
 }
 /* calculatrice  */
 #app{
@@ -22,9 +23,9 @@ input[type="text"]{
     flex: 1;
     border: none;
     outline: none;
-    background-color: #2E4C6D;
-    color: #FC997C;
-    font-size: 1.9em;
+    background-color: #750550;
+    color: white;
+    font-size: 1.7em;
     /* 2eme = 27.2px  // 1em = 16px */
     padding: 0 20px;
 }
@@ -32,12 +33,13 @@ button{
     flex: 1;
     border: none;
     outline: none;
-    background-color: #2E4C6D;
+    background-color: #4C0027;
     color: #DADDFC;
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 button:hover{
-    background-color:#FC4F4F ;
+    background-color:white ;
+    color: black;
     cursor: pointer;
     
 }
@@ -45,12 +47,12 @@ button:hover{
     flex: 2;
 }
 .special{
-    background-color: #FC4F4F;
+    background-color: #980F5A;
 }
 .special:hover{
     background-color: #139487;
 }
 
 .special-t{
-    background-color: #94B49F;
+    background-color: #980F5A;
 }
